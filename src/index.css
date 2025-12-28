@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #e8eefc;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  background: #121a2b;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+input, select, button {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: #0e1626;
+  color: #e8eefc;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.primary {
+  background: #2f6fed;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.list {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
+
+.muted {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: 700;
+}
